@@ -7,7 +7,6 @@ Welcome to the **Galleria Slideshow Website** project! This web application show
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Accessibility](#accessibility)
 - [Contributing](#contributing)
 
@@ -25,18 +24,6 @@ Welcome to the **Galleria Slideshow Website** project! This web application show
 - **Framer Motion**: Used for smooth animations and transitions.
 - **React Context API**: Manages shared state between components for slideshow and lightbox functionality.
 - **Image Optimization**: Built-in Next.js image optimization for performance.
-  
-## Project Structure
-.
-├── public               # Public assets like images, icons, etc.
-├── src
-│   ├── app              # Pages and layout
-│   ├── components       # Reusable React components
-│   ├── utils            # Utility functions, data, hooks, and types
-│   ├── styles           # Global styles and Tailwind configurations
-│   └── context          # Context providers for managing state
-├── next.config.js       # Next.js configuration file
-└── tsconfig.json        # TypeScript configuration file
 
 ## Accessibility
 - **Semantic HTML**:  Use of proper HTML tags such as <button>, <a>, and headings for better screen reader support.
@@ -58,5 +45,5 @@ We welcome contributions to improve this project! Whether it's fixing a bug, add
 2. **Clone the repository**
    - Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/galleria-slideshow.git
-   cd galleria-slideshow
+   git clone https://github.com/pritamtirpudee/galleria-site-app.git
+   cd galleria-site-app
