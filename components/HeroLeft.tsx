@@ -40,7 +40,6 @@ function HeroLeft() {
             <div>
               <Image
                 placeholder="blur"
-                blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM8Vw8AAiEBT6ythdcAAAAASUVORK5CYII="
                 priority
                 className="size-full object-cover md:max-w-[520px]  lg:max-w-[475px]"
                 src={
@@ -91,7 +90,6 @@ function HeroLeft() {
           >
             <Image
               placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM8Vw8AAiEBT6ythdcAAAAASUVORK5CYII="
               className="size-16 object-cover md:size-32 lg:size-32"
               src={galleriaData[currentIndex]?.artist.image}
               alt={`Portrait of artist name ${galleriaData[currentIndex]?.artist.name}`}

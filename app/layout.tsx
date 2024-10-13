@@ -23,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${libreBaskerbville.className}`}>
+      <body
+        className={`${libreBaskerbville.className}`}
+        suppressHydrationWarning={true}
+      >
         <GalleriaContextProvider>
           <Navbar />
           {children}
